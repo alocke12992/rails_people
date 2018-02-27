@@ -4,6 +4,7 @@
 <h2>Name: <%= person.name %></h2>
 <button><%= link_to 'Profile', person_path(person) %></button>
 <button><%= link_to 'Edit', edit_person_path(person) %></button>
+<button><%= link_to 'Delete', person, method: :delete %></button>
 <% end %> 
 
 
