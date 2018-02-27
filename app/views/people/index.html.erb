@@ -2,7 +2,8 @@
 
 <% @people.each do |person| %> 
 <h2>Name: <%= person.name %></h2>
-<%= link_to 'So profile', person_path(person) %>
+<button><%= link_to 'Profile', person_path(person) %></button>
+
 <% end %> 
 
 
